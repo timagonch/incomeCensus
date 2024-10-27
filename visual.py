@@ -73,4 +73,4 @@ def show_dataframe(df):
     # Start the Tkinter event loop
     root.mainloop()
 
-show_dataframe(combined_missing.sort_values(by='age', ascending=True))
+show_dataframe(combined_missing.sort_values(by='hours-per-week', ascending=True))
